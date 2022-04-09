@@ -96,6 +96,7 @@ body {
 .site-nav-bt {
   display: flex;
   align-items: center;
+  margin-left: 93px;
 }
 
 .site-nav-bt .item {
@@ -122,7 +123,7 @@ body {
 .mailtel {
   display: flex;
   padding-left: 0;
-  margin-left: 331px;
+  margin-left: auto;
 
   background-color: rebeccapurple;
 }
@@ -147,18 +148,6 @@ body {
   padding-bottom: 230px;
 }
 
-/* .hero-container {
-   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
-  flex-direction: column;
-
-  margin: 0 auto;
-  align-items: center; 
-
-  outline: 2px solid red;
-} */
 
 .hero-title {
   font-weight: 900;
@@ -234,7 +223,6 @@ body {
 .advantage-item {
   padding-bottom: 10px;
 }
-
 
 .advantage-list li + li {
   margin-left: 30px;
@@ -377,28 +365,44 @@ margin-left: 30px;
   color: var(--base-color);
 }
 
+
+
+
+/* ---------------------------------------------------- */
+
+/*       <!--Навигация по портфолио--> */
+
+
+/* 
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  align-content: center;
+  margin: 0 auto;
+
+  /* align-items: center; */
+
+  outline: 2px solid red;
+} */
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------ */
 /* footer */
 footer {
   background-color: var(--background-footer-color);
-}
-
-.logo-footer {
-  color: var(--title-text-color);
-  text-decoration: none;
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-}
-
-.link-footer {
-  color: var(--title-text-color);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-.link-footer-mailtel {
-  color: var(--link-footer-color);
 }
 
 .container-footer {
@@ -414,4 +418,34 @@ footer {
   align-items: center;
 
   outline: 2px solid red;
+}
+
+.link-footer + .link-footer {
+}
+
+.adress-footer a {
+  display: inline-block;
+}
+
+.logo-footer {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.link-footer {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  background-color: turquoise;
+  margin-top: 20px;
+}
+
+.link-footer-mailtel {
+  color: var(--link-footer-color);
+  margin-top: 9px;
 }
