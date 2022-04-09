@@ -206,8 +206,6 @@ body {
 
 /* advantage */
 
-
-
 .advantage-container {
   width: 1200px;
 
@@ -233,11 +231,11 @@ body {
   background-color: tomato;
 }
 
-.advantage-item{
+.advantage-item {
   padding-bottom: 10px;
 }
 
-.advantage-list li + li{
+.advantage-list li + li {
   margin-left: 30px;
 }
 
