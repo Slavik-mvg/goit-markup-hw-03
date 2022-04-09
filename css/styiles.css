@@ -37,6 +37,11 @@ ul {
   padding-left: 0;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -70,7 +75,7 @@ body {
   margin: 0 auto;
   align-items: center;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .logo-back {
@@ -99,9 +104,9 @@ body {
   margin-left: 93px;
 }
 
-.site-nav-bt .item {
+/* .site-nav-bt .item {
   background-color: teal;
-}
+} */
 
 .site-nav-bt .item + .item {
   margin-left: 50px;
@@ -125,7 +130,7 @@ body {
   padding-left: 0;
   margin-left: auto;
 
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
 }
 
 .mailtel .item + .item {
@@ -147,7 +152,6 @@ body {
   padding-top: 200px;
   padding-bottom: 230px;
 }
-
 
 .hero-title {
   font-weight: 900;
@@ -207,7 +211,7 @@ body {
   margin: 0 auto;
   align-items: center;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .advantage-list {
@@ -217,7 +221,7 @@ body {
 
 .advantage-list .item {
   width: 270px;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .advantage-item {
@@ -245,7 +249,7 @@ body {
   margin: 0 auto;
   /* align-items: center; */
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .container-works h2 {
@@ -281,7 +285,7 @@ margin-left: 30px;
   margin: 0 auto;
   align-items: center;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .commad-list {
@@ -365,39 +369,75 @@ margin-left: 30px;
   color: var(--base-color);
 }
 
-
-
-
 /* ---------------------------------------------------- */
 
 /*       <!--Навигация по портфолио--> */
 
-
-/* 
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.container{
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 
   align-content: center;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 
   /* align-items: center; */
 
-  outline: 2px solid red;
-} */
+  /* outline: 1px solid red; */
+}
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
 
+.button-menu-item {
+  padding: 6px 22px;
+}
 
+.button-menu + .button-menu {
+  margin-left: 8px;
+}
 
+/* <!--Примеры портфолио -->     ===================== */
 
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
 
+  padding: 0;
+  margin: 0;
 
+  margin-top: -30px;
+  margin-left: -30px;
+
+  /* outline: 1px tomato; */
+  padding-top: 50px;
+}
+
+.project-item {
+  border: 1px solid #eeeeee;
+
+  flex-basis: calc(100% / 3 - 30px);
+
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card-content {
+  padding: 20px 24px;
+}
+
+.prjects-description {
+  margin-top: 4px;
+}
 
 /* ------------------------------------------------------ */
 /* footer */
@@ -417,7 +457,7 @@ footer {
   margin: 0 auto;
   align-items: center;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .link-footer + .link-footer {
@@ -441,7 +481,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
 
-  background-color: turquoise;
+  /* background-color: turquoise; */
   margin-top: 20px;
 }
 
