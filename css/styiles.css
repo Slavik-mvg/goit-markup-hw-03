@@ -1,5 +1,6 @@
 :root {
   --primary-text-color: #212121;
+  --logo-color-black: #000000;
   --base-color: #757575;
   --title-text-color: #ffffff;
   --accent-color: #2196f3;
@@ -7,6 +8,8 @@
   --accent-buttons-color: #f5f4fa;
   --background-footer-color: #2f303a;
   --link-footer-color: rgba(255, 255, 255, 0.6);
+  --boreder-color-ee: #eeeeee;
+  --boreder-color-ec: #ececec;
 }
 
 .visually-hidden {
@@ -84,7 +87,7 @@ body {
 } */
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--boreder-color-ec);
 }
 
 /* .header-container {
@@ -112,7 +115,7 @@ body {
   padding-bottom: 25px;
 
   text-decoration: none;
-  color: #000000;
+  color: var(--logo-color-black);
   font-family: Raleway;
   font-weight: bold;
 
@@ -250,7 +253,7 @@ body {
   padding-left: 40px;
 } */
 
-/* <!--Чем мы занимаемся-->---------------------------------------- */
+/* <!-------------------Чем мы занимаемся-->---------------- */
 
 .works-list {
   display: flex;
@@ -260,21 +263,26 @@ body {
   margin-left: 30px;
 }
 
-/* <!--Наша команда-----------------------------------------------> */
+.work-title {
+padding-bottom: 50px;
+align-content: center;}
+
+/* <!--------------------Наша команда-----------------------------> */
 
 /* Radius: 1px Solid
 #FFFFFF
  */
- .commad{
-   background-color: var(--accent-buttons-color);
- }
+
+.commad {
+  background-color: var(--accent-buttons-color);
+}
 
 .commad-list {
   display: flex;
 }
 
 .commad .item {
-  background-color: #ffffff;
+  background-color: var(--title-text-color);
 }
 
 .commad-list .item:not(:first-child) {
@@ -388,8 +396,10 @@ body {
   margin-top: -30px;
   margin-left: -30px;
 
-  /* outline: 1px tomato; */
   padding-top: 50px;
+
+    /* outline: 1px tomato; */
+
 }
 
 .project-item {
@@ -401,12 +411,12 @@ body {
 
 .card-content {
   padding: 20px 24px;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
+  border-right: 1px solid var(--boreder-color-ee);
+  border-bottom: 1px solid var(--boreder-color-ee);
+  border-left: 1px solid var(--boreder-color-ee);
 }
 
-.container .title {
+.card-content .title {
   margin-bottom: 4px;
 }
 
