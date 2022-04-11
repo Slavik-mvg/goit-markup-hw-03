@@ -229,10 +229,6 @@ body {
   flex-wrap: wrap;
 }
 
-.advantage {
-  padding-bottom: 0;
-}
-
 .advantage-list .item {
   width: 270px;
   /* background-color: tomato; */
@@ -255,6 +251,10 @@ body {
 
 /* <!-------------------Чем мы занимаемся-->---------------- */
 
+.works {
+  padding-top: 0;
+}
+
 .works-list {
   display: flex;
 }
@@ -263,9 +263,9 @@ body {
   margin-left: 30px;
 }
 
-.work-title {
-padding-bottom: 50px;
-align-content: center;}
+.works .title {
+  padding-bottom: 50px;
+}
 
 /* <!--------------------Наша команда-----------------------------> */
 
@@ -288,7 +288,7 @@ align-content: center;}
 .commad-list .item:not(:first-child) {
   margin-left: 30px;
 }
-.commad-title {
+.commad .title {
   padding-bottom: 50px;
 }
 
@@ -398,8 +398,7 @@ align-content: center;}
 
   padding-top: 50px;
 
-    /* outline: 1px tomato; */
-
+  /* outline: 1px tomato; */
 }
 
 .project-item {
