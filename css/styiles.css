@@ -252,10 +252,6 @@ body {
 
 /* <!--Чем мы занимаемся-->---------------------------------------- */
 
-.container .title {
-  padding-bottom: 50px;
-}
-
 .works-list {
   display: flex;
 }
@@ -269,6 +265,9 @@ body {
 /* Radius: 1px Solid
 #FFFFFF
  */
+ .commad{
+   background-color: var(--accent-buttons-color);
+ }
 
 .commad-list {
   display: flex;
@@ -394,10 +393,6 @@ body {
 }
 
 .project-item {
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-
   flex-basis: calc(100% / 3 - 30px);
 
   margin-left: 30px;
@@ -406,10 +401,13 @@ body {
 
 .card-content {
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
-.prjects-description {
-  margin-top: 4px;
+.container .title {
+  margin-bottom: 4px;
 }
 
 /* ------------------------------------------------------ */
